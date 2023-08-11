@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Consulta Via CEP</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Consulta Utilizando Via CEP</h1>
+    <form id="formCep" class="form">
+      <label for="inputCep">Digite o CEP</label>
+      <div class="input-container">
+        <input type="text" id="inputCep" placeholder="Digite o CEP" maxlength="8">
+        <button type="submit">Consultar</button>
+      </div>
+    </form>
+    <div id="resultCep" class="hidden result"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
