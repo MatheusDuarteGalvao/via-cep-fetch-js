@@ -2,7 +2,7 @@
 
 Uma exemplo simples, utilizando HTML, CSS e JavaScript, no intuito de consultar uma cep por meio da API de integrações do Via CEP.
 
-## Passo a passa para consulta
+## Passo a passo para consulta
 
 Basta digitar um cep válido (8 números) e clicar no botão de consulta, serão exibidas informções de retorno como logradouro, bairro, cidade e estado.
 
